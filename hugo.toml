@@ -1,0 +1,28 @@
+baseURL = 'https://nathanzhk.github.io/'
+locale = 'en-us'
+title = 'nathanzhk.com'
+theme = 'PaperMod'
+
+[markup.goldmark]
+renderer.unsafe = true
+
+[params.profileMode]
+enabled = true
+title = "Hi there, 👋<br>I'm Zhikang Chai"
+subtitle = 'Software Engineer, Full-Stack Developer, Problem Solver<br><span class="skills-game-invite" aria-label="Interactive portfolio game"><button class="skills-game-invite__trigger" type="button" aria-haspopup="dialog" aria-controls="skills-game-modal"><span class="skills-game-invite__ball" aria-hidden="true"></span><span class="skills-game-invite__copy"><span class="skills-game-invite__text">Play the Mini Game</span><span class="skills-game-invite__subtext">Unlock the interactive portfolio</span></span><span class="skills-game-invite__arrow" aria-hidden="true">→</span></button></span><span class="skills-game-modal" id="skills-game-modal" role="dialog" aria-modal="true" aria-label="Skills game" hidden><span class="skills-game-modal__backdrop" data-skills-game-close></span><span class="skills-game-modal__panel"><span class="skills-game"><canvas id="game" aria-label="Skills game portfolio interaction"></canvas><span class="hud" aria-live="polite"><span class="score-card"><span class="label">Score</span><strong id="score">0</strong></span><span class="hud-actions"><button id="restart" type="button">Restart</button><button class="skills-game-modal__close" type="button" data-skills-game-close aria-label="Exit game">Exit</button></span></span><span id="hint" class="hint">Hold and Release</span></span></span></span><link rel="stylesheet" href="/skills-game/skills-game.css"><script type="module" src="/skills-game/skills-game.js"></script><script src="/skills-game/skills-game-modal.js" defer></script>'
+
+[[params.profileMode.buttons]]
+name = 'Résumé'
+url = '/resume'
+
+[[params.socialIcons]]
+name = 'email'
+url = 'mailto:nathanzhk@gmail.com'
+
+[[params.socialIcons]]
+name = 'github'
+url = 'https://github.com/nathanzhk'
+
+[[params.socialIcons]]
+name = 'linkedin'
+url = 'https://linkedin.com/in/nathanzhk'

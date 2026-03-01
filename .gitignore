@@ -1,0 +1,5 @@
+public/
+.DS_Store
+.hugo_build.lock
+skills-game-src/dist
+skills-game-src/node_modules
