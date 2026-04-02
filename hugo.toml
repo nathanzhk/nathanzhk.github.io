@@ -1,0 +1,28 @@
+baseURL = 'https://nathanzhk.github.io/'
+locale = 'en-us'
+title = 'nathanzhk.com'
+theme = 'PaperMod'
+
+[markup.goldmark]
+renderer.unsafe = true
+
+[params.profileMode]
+enabled = true
+title = "Hi there, 👋<br>I'm Zhikang Chai"
+subtitle = 'Software Engineer, Full-Stack Developer, Problem Solver'
+
+[[params.profileMode.buttons]]
+name = 'Résumé'
+url = '/resume'
+
+[[params.socialIcons]]
+name = 'email'
+url = 'mailto:nathanzhk@gmail.com'
+
+[[params.socialIcons]]
+name = 'github'
+url = 'https://github.com/nathanzhk'
+
+[[params.socialIcons]]
+name = 'linkedin'
+url = 'https://linkedin.com/in/nathanzhk'
