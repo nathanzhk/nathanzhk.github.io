@@ -11,9 +11,10 @@ Authorized to work in Canada (Permanent Resident)
 
 ## Skills
 
-- **Languages:** Go, Python, JavaScript, TypeScript
-- **Frameworks:** React, Hugo, FastAPI
-- **Tools:** Git, Docker, PostgreSQL, AWS
+- **Backend:** Java, REST APIs, Spring Boot, Maven, Gradle
+- **Frontend:** JavaScript, TypeScript, React, Next.js
+- **Database:** SQL, PostgreSQL, MySQL, Redis
+- **Deployment:** Docker, Kubernetes, Git Flow, CI/CD Pipelines
 
 ---
 
