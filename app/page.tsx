@@ -1,4 +1,6 @@
 import { HomeLayout } from 'fumadocs-ui/layouts/home';
+import { Section } from '@/components/section';
+import { experience } from '@/data/experience';
 
 export default function Home() {
   return (
@@ -24,6 +26,13 @@ export default function Home() {
             maintainable systems that hold up as they grow.
           </p>
         </section>
+
+        <Section
+          title="Experience"
+          subtitle="Where I've worked and what I worked on."
+          icon="briefcase"
+          items={experience}
+        />
       </main>
     </HomeLayout>
   );
