@@ -5,10 +5,25 @@ export default function Home() {
     <HomeLayout
       className="flex-1"
       searchToggle={{ enabled: false }}
-      nav={{ title: <span className="font-semibold">Nathan</span> }}
+      nav={{ title: <span className="font-semibold">Zhikang Chai</span> }}
     >
-      <main className="flex flex-1 flex-col items-center justify-center px-4 py-24 text-center">
-        <p>hello</p>
+      <main className="mx-auto w-full max-w-2xl flex-1 px-4 py-8 sm:py-24">
+        <section>
+          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
+            Zhikang Chai
+          </h1>
+          <p className="text-fd-muted-foreground mt-3 flex flex-wrap items-center gap-x-3 gap-y-1 text-lg">
+            <span className="text-fd-foreground font-medium">
+              Software Engineer
+            </span>
+            <span aria-hidden>·</span>
+            <span>Vancouver, Canada</span>
+          </p>
+          <p className="text-fd-muted-foreground mt-6 leading-relaxed">
+            I build reliable web applications end to end, and care about clean,
+            maintainable systems that hold up as they grow.
+          </p>
+        </section>
       </main>
     </HomeLayout>
   );
